@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15173a"/>
+      <stop offset="1" stop-color="#9b7bff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#g6)"/>
+  <g stroke="#ffffff" stroke-width="2" fill="none" opacity="0.45">
+    <path d="M0 250 Q 200 120 400 250 T 800 250"/>
+    <path d="M0 300 Q 200 170 400 300 T 800 300"/>
+    <path d="M0 200 Q 200 70 400 200 T 800 200"/>
+  </g>
+  <text x="60" y="450" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Verse  Generative Art</text>
+</svg>

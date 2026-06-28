@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a0f0f"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ac)"/>
+  <text x="60" y="80" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#fff">Autonomous Driving Car</text>
+  <text x="60" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#fca5a5">Deep Reinforcement Learning</text>
+  <rect x="180" y="280" width="440" height="80" rx="20" fill="#fff" opacity="0.15"/>
+  <circle cx="240" cy="360" r="28" fill="#fff" opacity="0.25"/>
+  <circle cx="560" cy="360" r="28" fill="#fff" opacity="0.25"/>
+  <path d="M120 200 Q 400 120 680 200" stroke="#fff" stroke-width="3" fill="none" opacity="0.3" stroke-dasharray="12 8"/>
+</svg>
