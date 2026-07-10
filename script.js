@@ -1,5 +1,5 @@
 /* =========================================================
-   Portfolio — script.js
+   Portfolio - script.js
    - Scroll reveal (IntersectionObserver)
    - Image lightbox + custom hover cursor
    - Color-coded skills -> highlight matching projects

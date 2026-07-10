@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Haris Owais | Portfolio</title>
-  <meta name="description" content="Portfolio of Haris Owais, Aspiring Data Scientist at FAST-NUCES." />
+  <meta name="description" content="Haris Owais. Data Science student at FAST-NUCES. ML, robotics, and full-stack projects." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&family=Share+Tech+Mono&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -28,14 +28,14 @@
   <main>
     <section class="hero" id="hero">
       <div class="hero__inner">
-        <p class="hero__eyebrow reveal">UNAUTHORIZED PORTFOLIO FEED</p>
+        <p class="hero__eyebrow reveal">PORTFOLIO // LIVE</p>
         <h1 class="hero__title cyber-glitch reveal" data-text="HARIS OWAIS" style="--delay: 100ms">HARIS OWAIS</h1>
         <p class="hero__lead reveal" style="--delay: 220ms">
-          &gt; Aspiring Data Scientist at FAST-NUCES. Building solutions in ML, robotics, and full-stack systems<span class="blinking-cursor">_</span>
+          &gt; Data Science @ FAST-NUCES. ML, robotics, full-stack<span class="blinking-cursor">_</span>
         </p>
         <div class="hero__cta reveal" style="--delay: 360ms">
-          <a href="#projects" class="btn btn--primary">View my work</a>
-          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          <a href="#projects" class="btn btn--primary">View work</a>
+          <a href="#contact" class="btn btn--ghost">Contact</a>
         </div>
       </div>
       <a href="#about" class="scroll-hint" aria-label="Scroll to explore">
@@ -45,18 +45,17 @@
 
     <section class="section about" id="about">
       <div class="section__head reveal">
-        <h2 class="section__title">About Me</h2>
+        <h2 class="section__title">About</h2>
       </div>
       <div class="about__card reveal" style="--delay: 80ms">
         <div class="about__text">
           <p>
-            Aspiring Data Scientist currently in my fourth semester at FAST-NUCES,
-            with interests in SDW, ML, Robotics, and EDA/Data Analysis.
+            Fourth-semester Data Science student at FAST-NUCES.
+            I work across ML, robotics, data analysis, and full-stack systems.
           </p>
           <p>
-            I am passionate about building solutions that solve real-world problems
-            and creating things that have meaningful impact, from RAG-powered learning
-            tools to autonomous systems and full-stack platforms.
+            Recent work includes a RAG study assistant, a self-driving RC car,
+            a personal cloud on a Raspberry Pi, and a role-based e-commerce app.
           </p>
         </div>
       </div>
@@ -65,27 +64,57 @@
     <section class="section skills" id="skills">
       <div class="section__head reveal">
         <h2 class="section__title">Skills</h2>
-        <p class="section__sub">Tap a skill to see the projects it powered.</p>
+        <p class="section__sub">Select a skill to filter projects.</p>
       </div>
-      <div class="skills__grid reveal" style="--delay: 120ms">
-        <button class="chip" data-skill="python" style="--chip: #FACC15">Python</button>
-        <button class="chip" data-skill="pytorch" style="--chip: #EF4444">PyTorch</button>
-        <button class="chip" data-skill="react" style="--chip: #22D3EE">React</button>
-        <button class="chip" data-skill="node" style="--chip: #22C55E">Node.js</button>
-        <button class="chip" data-skill="fastapi" style="--chip: #14B8A6">FastAPI</button>
-        <button class="chip" data-skill="langchain" style="--chip: #A855F7">LangChain</button>
-        <button class="chip" data-skill="vectordb" style="--chip: #6366F1">Vector Databases</button>
-        <button class="chip" data-skill="express" style="--chip: #F97316">Express</button>
-        <button class="chip" data-skill="supabase" style="--chip: #10B981">Supabase</button>
-        <button class="chip" data-skill="arduino" style="--chip: #0EA5E9">Arduino C++</button>
-        <button class="chip" data-skill="esp32" style="--chip: #EC4899">ESP32</button>
-        <button class="chip" data-skill="docker" style="--chip: #2496ED">Docker</button>
-        <button class="chip" data-skill="compose" style="--chip: #6D28D9">Docker Compose</button>
-        <button class="chip" data-skill="nextcloud" style="--chip: #84CC16">Nextcloud</button>
-        <button class="chip" data-skill="mariadb" style="--chip: #A16207">MariaDB</button>
-        <button class="chip" data-skill="redis" style="--chip: #D82C20">Redis</button>
-        <button class="chip" data-skill="raspberrypi" style="--chip: #BE185D">Raspberry Pi OS</button>
-        <button class="chip" data-skill="linux" style="--chip: #E5E7EB">Linux</button>
+      <div class="skills__groups reveal" style="--delay: 120ms">
+        <div class="skills__group">
+          <h3 class="skills__group-title">Machine Learning</h3>
+          <div class="skills__grid">
+            <button class="chip" data-skill="python" style="--chip: #FACC15">Python</button>
+            <button class="chip" data-skill="pytorch" style="--chip: #EF4444">PyTorch</button>
+          </div>
+        </div>
+
+        <div class="skills__group">
+          <h3 class="skills__group-title">AI / RAG</h3>
+          <div class="skills__grid">
+            <button class="chip" data-skill="langchain" style="--chip: #A855F7">LangChain</button>
+            <button class="chip" data-skill="rag" style="--chip: #F43F5E">RAG</button>
+            <button class="chip" data-skill="vectordb" style="--chip: #6366F1">Vector Databases</button>
+          </div>
+        </div>
+
+        <div class="skills__group">
+          <h3 class="skills__group-title">Full-Stack</h3>
+          <div class="skills__grid">
+            <button class="chip" data-skill="react" style="--chip: #22D3EE">React</button>
+            <button class="chip" data-skill="node" style="--chip: #22C55E">Node.js</button>
+            <button class="chip" data-skill="fastapi" style="--chip: #14B8A6">FastAPI</button>
+            <button class="chip" data-skill="express" style="--chip: #F97316">Express</button>
+            <button class="chip" data-skill="supabase" style="--chip: #10B981">Supabase</button>
+          </div>
+        </div>
+
+        <div class="skills__group">
+          <h3 class="skills__group-title">Embedded</h3>
+          <div class="skills__grid">
+            <button class="chip" data-skill="arduino" style="--chip: #0EA5E9">Arduino C++</button>
+            <button class="chip" data-skill="esp32" style="--chip: #EC4899">ESP32</button>
+          </div>
+        </div>
+
+        <div class="skills__group">
+          <h3 class="skills__group-title">Infrastructure</h3>
+          <div class="skills__grid">
+            <button class="chip" data-skill="docker" style="--chip: #2496ED">Docker</button>
+            <button class="chip" data-skill="compose" style="--chip: #6D28D9">Docker Compose</button>
+            <button class="chip" data-skill="nextcloud" style="--chip: #84CC16">Nextcloud</button>
+            <button class="chip" data-skill="mariadb" style="--chip: #A16207">MariaDB</button>
+            <button class="chip" data-skill="redis" style="--chip: #D82C20">Redis</button>
+            <button class="chip" data-skill="raspberrypi" style="--chip: #BE185D">Raspberry Pi OS</button>
+            <button class="chip" data-skill="linux" style="--chip: #E5E7EB">Linux</button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -96,26 +125,27 @@
       </div>
       <div class="projects__grid" id="projectsGrid">
 
-        <article class="project reveal" data-skills="node fastapi langchain vectordb">
+        <article class="project reveal" data-skills="node fastapi langchain rag vectordb">
           <button
             class="project__media"
-            data-title="Study Copilot"
+            data-title="Study Copilot (RAG)"
             data-gallery='["assets/Study Copilot.png","assets/Study Copilot (2).png","assets/Study Copilot (3).png","assets/Study Copilot (4).png","assets/Study Copilot (5).png"]'
           >
             <img src="assets/Study Copilot.png" alt="Study Copilot preview" loading="lazy" />
           </button>
           <div class="project__body">
-            <h3 class="project__title">Study Copilot: RAG-Powered Learning Assistant</h3>
+            <h3 class="project__title">Study Copilot (RAG)</h3>
             <ul class="project__bullets">
-              <li>Built a course-material assistant that lets users upload lecture notes and ask RAG-powered questions with grounded citations</li>
-              <li>Implemented exam practice generation with MCQs and short questions from uploaded study documents</li>
-              <li>Created personalized 7-day revision plans based on user documents and study material</li>
-              <li>Deployed frontend on Vercel and backend on Render with bucket storage and vector extension support for RAG</li>
+              <li>Upload lecture notes, ask questions, get answers with citations from your own material</li>
+              <li>Generates MCQs and short questions for exam practice from uploaded docs</li>
+              <li>Builds a 7-day revision plan from whatever you feed it</li>
+              <li>Frontend on Vercel, backend on Render, with vector storage for RAG</li>
             </ul>
             <div class="project__tags">
               <span class="tag" data-skill="node">Node.js</span>
               <span class="tag" data-skill="fastapi">FastAPI</span>
               <span class="tag" data-skill="langchain">LangChain</span>
+              <span class="tag" data-skill="rag">RAG</span>
               <span class="tag" data-skill="vectordb">Vector Databases</span>
             </div>
             <div class="project__links">
@@ -140,12 +170,12 @@
             <img src="assets/Self-Hosted Personal Cloud Server.jpeg" alt="Self-hosted Personal Cloud Server preview" loading="lazy" />
           </button>
           <div class="project__body">
-            <h3 class="project__title">Self-hosted Personal Cloud Server</h3>
+            <h3 class="project__title">Self-hosted Personal Cloud</h3>
             <ul class="project__bullets">
-              <li>Deployed a multi-container personal cloud solution on Raspberry Pi using Docker Compose</li>
-              <li>Configured Nextcloud with MariaDB and Redis, enabling persistent storage through Docker volumes on SSD</li>
-              <li>Implemented container networking, environment-based configuration, and automatic service recovery after reboot</li>
-              <li>Applied Linux server administration, SSH, and self-hosting practices to build a scalable local cloud platform</li>
+              <li>Nextcloud stack on a Raspberry Pi 4. Docker Compose.</li>
+              <li>MariaDB + Redis alongside Nextcloud; files live on an external SSD via Docker volumes</li>
+              <li>Services restart on reboot; config driven by env files</li>
+              <li>Set up over SSH: networking, volumes, and Linux admin for a local-only cloud</li>
             </ul>
             <div class="project__tags">
               <span class="tag" data-skill="docker">Docker</span>
@@ -174,12 +204,12 @@
             <img src="assets/AutonomousCar.JPG" alt="Autonomous Driving Car preview" loading="lazy" />
           </button>
           <div class="project__body">
-            <h3 class="project__title">Autonomous Driving Car using Deep Reinforcement Learning</h3>
+            <h3 class="project__title">Autonomous Driving Car</h3>
             <ul class="project__bullets">
-              <li>Developed a self-driving RC car using Deep Q-Learning for autonomous navigation</li>
-              <li>Trained reinforcement learning agent using PyTorch and deployed model to embedded system</li>
-              <li>Integrated ESP32 and ESP32-CAM for real-time data processing and control</li>
-              <li>Mapped trained agent decisions to physical car movements in real-world environment</li>
+              <li>RC car that navigates with Deep Q-Learning. Trained in PyTorch, run on hardware</li>
+              <li>ESP32 + ESP32-CAM handle sensing and control in real time</li>
+              <li>Agent decisions map straight to motor commands on the physical car</li>
+              <li>End-to-end loop: train offline, deploy to the embedded board, drive</li>
             </ul>
             <div class="project__tags">
               <span class="tag" data-skill="python">Python</span>
@@ -205,12 +235,12 @@
             <img src="assets/easySamaan.png" alt="Easy-Samaan preview" loading="lazy" />
           </button>
           <div class="project__body">
-            <h3 class="project__title">Easy-Samaan: Role-Based E-Commerce Platform</h3>
+            <h3 class="project__title">Easy-Samaan</h3>
             <ul class="project__bullets">
-              <li>Developed a full-stack e-commerce platform with role-based access for buyers, sellers, and riders</li>
-              <li>Built responsive frontend using React and deployed via Vercel</li>
-              <li>Implemented backend services using FastAPI and Node.js, deployed on Railway</li>
-              <li>Integrated Supabase for authentication and real-time database management</li>
+              <li>E-commerce app with separate flows for buyers, sellers, and riders</li>
+              <li>React frontend on Vercel</li>
+              <li>FastAPI + Node/Express backends on Railway</li>
+              <li>Auth and realtime data through Supabase</li>
             </ul>
             <div class="project__tags">
               <span class="tag" data-skill="react">React</span>
@@ -227,8 +257,8 @@
 
     <section class="section contact" id="contact">
       <div class="section__head reveal">
-        <h2 class="section__title">Contact Me</h2>
-        <p class="section__sub">Have a project in mind? Let's talk.</p>
+        <h2 class="section__title">Contact</h2>
+        <p class="section__sub">Open for questions and collabs.</p>
       </div>
       <div class="contact__links reveal" style="--delay: 120ms">
         <a class="contact__link contact__link--github" href="https://github.com/harison-ford" target="_blank" rel="noopener">
@@ -265,7 +295,7 @@
   </main>
 
   <footer class="footer">
-    <p>© <span id="year"></span> Haris Owais. Built with care.</p>
+    <p>© <span id="year"></span> Haris Owais</p>
   </footer>
 
   <div class="lightbox" id="lightbox" aria-hidden="true">
